@@ -23,7 +23,7 @@ Set the required environment variables for the sync worker:
 ```bash
 # Set Supabase credentials
 fly secrets set SUPABASE_URL="https://cssqcaieeixukjxqpynp.supabase.co" -a dealbrief-sync-worker
-fly secrets set SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNzc3FjYWllZWl4dWtqeHFweW5wIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NTcwODU5NSwiZXhwIjoyMDYxMjg0NTk1fQ.SZI80-RDucQjMMS_4NcAx16LwDOek1zi_DVVdBwjZX8" -a dealbrief-sync-worker
+fly secrets set SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.YOUR_SERVICE_ROLE_KEY_HERE" -a dealbrief-sync-worker
 
 # Set database connection (same as your main worker)
 fly secrets set DATABASE_URL="your-fly-postgres-connection-string" -a dealbrief-sync-worker

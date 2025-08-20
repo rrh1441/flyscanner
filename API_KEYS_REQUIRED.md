@@ -12,8 +12,8 @@ export DB_URL="postgresql://user:password@host:5432/database"  # Alternative
 
 # Supabase Integration
 export SUPABASE_URL="https://your-project.supabase.co"
-export SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-export NEXT_PUBLIC_SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+export SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.YOUR_SERVICE_ROLE_KEY_HERE"
+export NEXT_PUBLIC_SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.YOUR_ANON_KEY_HERE"
 
 # Redis Queue (Upstash)
 export REDIS_URL="redis://username:password@host:port"
@@ -30,7 +30,7 @@ export OPENAI_API_KEY="sk-1234567890abcdefghijklmnopqrstuvwxyzABCDEFGH"
 export ANTHROPIC_API_KEY="sk-ant-api03-..."
 
 # Google AI (Alternative)
-export GOOGLE_AI_API_KEY="AIzaSyBdVl-cTICSwYKrZ95SuvNw7dbMuDt1KG0"
+export GOOGLE_AI_API_KEY="AIzaSyYOUR_GOOGLE_AI_API_KEY_HERE"
 ```
 
 ## 🔍 **Security Scanning APIs** (High Priority)
